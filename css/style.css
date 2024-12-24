@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.Slidebar {
+  padding-top: 20px;
+  position: absolute;
+  top: 0;
+  left: -182px;
+  height: 100%;
+  width: 250px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+align-items: center;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.SlidebarLogo {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.SlidebarLogo__one {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: lightyellow;
+  font-size: 28px;
+  font-weight: 700;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: rgb(84, 70, 253);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.SlidebarLogoSecond {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.SlidebarLogo__two {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(73, 72, 72);
+}
+.SlidebarLogo__three {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(93, 91, 91);
+}
+.SlidebarLogo__icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(84, 70, 253);
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.SlidebarLogo__icon2nd {
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(84, 70, 253);
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.SlidebarMenu {
+  /* Nothing */
+  padding-top: 70px;
+}
+.SlidebarMenuUl {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.SlidebarMenuUlli {
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+background-color: rgb(84, 70, 253);
+box-shadow: 3px -1px 16px -5px rgba(0,0,0,0.75);
+}
+
+
+#SlidebarImageViewer{
+  margin-top: 50px;
+  width: 200px;
+  height: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(84, 70, 253);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.Leftbtn{
+  position: absolute;
+  top: 42%;
+  left: -8%;
+  width: 40px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  color: White;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.rightbtn{
+  position: absolute;
+  top: 42%;
+  right: -8%;
+  width: 40px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  color: White;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.ImageHolder{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
